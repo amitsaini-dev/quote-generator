@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page Layout */
+body {
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Title */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Quote Box */
+.quote-box {
+  margin-bottom: 20px;
+}
+
+#quote {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#author {
+  display: block;
+  font-size: 1rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Button */
+#new-quote {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#new-quote:hover {
+  background-color: #45a049;
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Page Layout */
+body {
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Title */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Quote Box */
+.quote-box {
+  margin-bottom: 20px;
+}
+
+#quote {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#author {
+  display: block;
+  font-size: 1rem;
+  color: #888;
+  font-style: italic;
+}
+
+/* Button */
+#new-quote {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#new-quote:hover {
+  background-color: #45a049;
+}
