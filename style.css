@@ -1,136 +1,60 @@
-/* General Reset */
+/* Reset some default browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
-/* Page Layout */
 body {
-  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* Container */
-.container {
-  background: white;
-  padding: 30px 40px;
-  border-radius: 15px;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  width: 90%;
+  color: #fff;
+  padding: 20px;
 }
 
-/* Title */
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
 h1 {
   font-size: 1.8rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* Quote Box */
-.quote-box {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  color: #ffeb3b;
 }
 
 #quote {
   font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 10px;
-}
-
-#author {
-  display: block;
-  font-size: 1rem;
-  color: #888;
+  margin: 20px 0;
   font-style: italic;
 }
 
-/* Button */
-#new-quote {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #4CAF50;
-  color: white;
+button {
+  padding: 12px 20px;
   border: none;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-#new-quote:hover {
-  background-color: #45a049;
-}
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-/* Page Layout */
-body {
-  background: linear-gradient(to right, #74ebd5, #ACB6E5);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Container */
-.container {
-  background: white;
-  padding: 30px 40px;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  width: 90%;
-}
-
-/* Title */
-h1 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
-/* Quote Box */
-.quote-box {
-  margin-bottom: 20px;
-}
-
-#quote {
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 10px;
-}
-
-#author {
-  display: block;
+  background: #ff9800;
+  color: #fff;
   font-size: 1rem;
-  color: #888;
-  font-style: italic;
-}
-
-/* Button */
-#new-quote {
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-#new-quote:hover {
-  background-color: #45a049;
+button:hover {
+  background: #e68900;
+  transform: translateY(-2px);
 }
